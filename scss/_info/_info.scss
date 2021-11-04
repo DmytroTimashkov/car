@@ -1,0 +1,29 @@
+.info{
+    padding: 90px 0;
+    background-color: #0e0e0e;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    .text{
+        background-color: #161616;
+        z-index:1;
+        padding: 60px 100px 60px 160px;
+        color: #4a4c4c;
+        
+        h1{
+            margin-bottom: 30px;
+            font-weight: 700px;
+            span{
+                color: #82878a;
+            }
+        }
+        div{
+            margin: 70px 0 10px ;
+            svg{
+                margin-left: 40px;
+            }
+        }
+    }
+    .lexus{
+        z-index: 10;
+    }
+}
