@@ -2,6 +2,9 @@
 header {
   background-color: #0e0e0e;
 }
+header .logo {
+  width: 100%;
+}
 
 .info {
   padding: 90px 0;
@@ -19,8 +22,11 @@ header {
   margin-bottom: 30px;
   font-weight: 700px;
 }
-.info .text h1 span {
+.info .text h1 .clr {
   color: #82878a;
+}
+.info .text h1 .custom-border {
+  border-bottom: solid #4a4c4c 3px;
 }
 .info .text div {
   margin: 70px 0 10px;
@@ -30,6 +36,123 @@ header {
 }
 .info .lexus {
   z-index: 10;
+  display: flex;
+  align-items: center;
+}
+.info .lexus img {
+  width: 120%;
+}
+
+@media (max-width: 992px) {
+  .info .lexus {
+    margin-bottom: 30px;
+  }
+  .info .lexus img {
+    width: 100%;
+  }
+  .info .text {
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .info {
+    padding: 30px 0;
+  }
+}
+.testimonials {
+  background-color: #0b0b0b;
+  padding: 90px 0;
+}
+.testimonials .wrapper {
+  padding: 15px;
+}
+.testimonials .wrapper img {
+  margin-bottom: 20px;
+}
+.testimonials .wrapper .text {
+  color: #82878a;
+  margin-bottom: 20px;
+}
+.testimonials .wrapper h4 {
+  color: #9e171d;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+}
+footer h3 {
+  margin-bottom: 60px;
+  font-weight: 800;
+}
+footer h3 .custom-border {
+  border-bottom: solid 3px #9e171d;
+}
+footer h3 .clr {
+  color: #9e171d;
+}
+footer ul {
+  margin-left: 0;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #c5c7c8;
+  font-weight: 300;
+}
+footer ul li a:hover {
+  color: #c5c7c8;
+}
+footer .secFooter {
+  background-color: #e6e6e6;
+  padding: 15px 0;
+}
+footer .secFooter a {
+  text-decoration: none;
+  color: #9e171d;
+  font-size: 16px;
+  font-weight: 300;
+}
+footer .secFooter span {
+  font-size: 16px;
+  color: #898d90;
+  font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+  footer ul li a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 992px) {
+  footer h3 {
+    text-align: center;
+  }
+  footer .first li {
+    text-align: center;
+  }
+  footer .second li {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  footer .first li {
+    width: 33.3333333333%;
+  }
+  footer .second li {
+    width: 100%;
+  }
+  footer .secFooter span {
+    font-size: 12px;
+  }
+  footer .secFooter .adapt {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

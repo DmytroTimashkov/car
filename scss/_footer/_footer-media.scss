@@ -1,0 +1,55 @@
+@media(max-width:1200px){
+    footer{
+        ul{
+            li{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:992px){
+    footer{
+        h3{
+            text-align: center;
+        }
+        .first{
+            li{
+                
+                text-align: center;
+            }
+        }
+        .second{
+            li{
+               
+                text-align: center;
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    footer{
+        .first{
+            li{
+                width: calc(100%/3);
+               
+            }
+        }
+        .second{
+            li{
+                width: 100%;
+               
+            }
+        }
+        .secFooter{
+            span{
+                font-size: 12px;
+            }
+            .adapt{
+                width: 100%;
+            }
+        }
+    }
+
+}
